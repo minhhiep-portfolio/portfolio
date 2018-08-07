@@ -1,0 +1,28 @@
+@font-face {
+    font-family: lato-reg;
+    src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato-thin;
+    src: url(fonts/Lato-Thin.ttf);
+}
+@font-face {
+    font-family: monts-reg;
+    src: url(fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: monts-thin;
+    src: url(fonts/Montserrat-Thin.otf)
+}
+@font-face{
+    font-family: san-reg;
+    src : url(fonts/SanFranciscoText-Regular.otf)
+}
+@font-face{
+    font-family: san-thin;
+    src : url(fonts/SanFranciscoText-Thin.otf)
+}
+@font-face{
+    font-family: trade-bold;
+    src : url(fonts/TradeGothicLTBold.ttf)
+}
