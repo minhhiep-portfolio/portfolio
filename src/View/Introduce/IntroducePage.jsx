@@ -11,14 +11,14 @@ const IntroducePage = (props) => {
         <Grid 
             container 
             justify={"center"} 
-            style={{ padding: "7rem 3rem", height: "100vh", overflowY: "auto" }}
+            style={{ padding: "7rem 1rem", height: "100vh", overflowY: "auto" }}
         >
             <Grid item xs={10}>
                 <TitleSection
                     titleText="About Me."
                 />
             </Grid>
-            <Grid item xs={10} style={{ textAlign : "center" }}>
+            <Grid item xs={12} sm={10} style={{ textAlign : "center" }}>
                 <Avatar />
                 <Introduce />
             </Grid>

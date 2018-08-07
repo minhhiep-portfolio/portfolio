@@ -24,5 +24,14 @@ export default  {
     },
     aboutMySelf : {
         textAlign : "center",
+    },
+    one_info : {
+        ...helpers.flex("space-between", "center"),
+        marginBottom : 11
+    },
+    CarrerInfo : {
+        textAlign : "left",
+        marginLeft : 11, 
+        marginBottom : 0
     }
 }

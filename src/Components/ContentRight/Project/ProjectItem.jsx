@@ -31,7 +31,6 @@ const slugName = (str) => {
 const ProjectItem = (props) => {
     const { classes, project } = props;
     const TenProject = slugName(project.Name);
-    const ImageURl = `${window.location.origin}/Images/`;
     return (
         <Card className={classes.oneBLockProject}>
             <div className={classes.srcImg}>
@@ -48,7 +47,6 @@ const ProjectItem = (props) => {
                     <IconButton
                         color="primary"
                         component={Link}
-                        // to={`/ten-project=${TenProject}&id=${project.Id}`}
                         to={`${process.env.PUBLIC_URL}/ten-project=${TenProject}&id=${project.Id}`}
                     >
                         <DetailIcon />

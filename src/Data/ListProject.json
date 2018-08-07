@@ -72,7 +72,7 @@
         "Knowledges" : [
             "Dàn layout chuẩn Responsive với HTML5, CSS3 Kết Hợp Material-ui",
             "Làm Quen Với Cách Tổ Chức Project React Cơ Bản",
-            "Hiểu Được Cơ Bản Cách Binding Dữ Liệu Với Props Và State Trong React",
+            "Hiểu Được Cơ Bản Luồng Dữ Liệu Với Props Và State Trong React",
             "Xây Dựng SPA Cơ Bản Sử Dùng React-Router-Dom"
         ]
     }

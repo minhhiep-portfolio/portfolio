@@ -24,8 +24,6 @@ const settingSlider = {
 	nextArrow: <NextArrow />,
 	prevArrow: <PrevArrow />
 };
-const ImgURL = `${window.location.origin}/Images/`;
-
 class ProjectDetail extends React.Component {
 	state = {
 		isReview: false,

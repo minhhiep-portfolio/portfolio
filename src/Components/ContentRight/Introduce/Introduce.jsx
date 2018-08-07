@@ -12,7 +12,7 @@ import IntroduceStyle from "./../../../Assets/Jss/Components/IntroduceStyle";
 
 const ListMucTieu_learn = [
     "Nâng Cao Khả năng tổ chức code css với SMACSS, OOCSS, BEM",
-    "hiểu rõ nhất có thể các xử lí bất đồng bộ trong javascript",
+    "hiểu rõ nhất các xử lí bất đồng bộ trong javascript",
     "Tiếp cận Reactjs + Redux",
     "Tìm hiểu sâu về webpack",
     "Học Tiếng Anh"
@@ -65,11 +65,11 @@ const showInfo = (infos, classes) => {
     if(infos.length > 0){
         res = infos.map((info, index) => {
             return (
-                <div className="one-info" style={{  marginBottom : 11, display : "flex" }} key={index}>
-                    <Typography variant="body2" className={classes.Career} style={{ textAlign : "left", marginLeft : 11, marginBottom : 0 }}>
+                <div className={classes.one_info} key={index}>
+                    <Typography variant="body2" className={`${classes.Career} ${classes.CarrerInfo}`}>
                         {info.type} : 
                     </Typography>
-                    <Typography style={{ marginLeft : "10rem" }} variant="body2">{info.value}</Typography>
+                    <Typography variant="body2">{info.value}</Typography>
                 </div>
             )
         })
