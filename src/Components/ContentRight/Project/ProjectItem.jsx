@@ -37,7 +37,7 @@ const ProjectItem = (props) => {
             <div className={classes.srcImg}>
                 <img
                     className={classes.srcImg__Img}
-                    src={ImageURl + project.Image} alt=""
+                    src={`${process.env.PUBLIC_URL}/Images/${project.Image}`} alt=""
                 />
             </div>
             <CardContent className={classes.content}>

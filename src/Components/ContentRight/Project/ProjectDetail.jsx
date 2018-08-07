@@ -128,7 +128,7 @@ class ProjectDetail extends React.Component {
 					<img
 						key={index}
 						style={{ height: "300px" }}
-						src={ImgURL + img}
+						src={`${process.env.PUBLIC_URL}/Images/${img}`}
 						alt={`Hình Ảnh ${img}`}
 					/>
 				);
