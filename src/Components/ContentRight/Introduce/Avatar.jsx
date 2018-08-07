@@ -7,7 +7,7 @@ const Avatar = (props) => {
     let { classes } = props;
     return (
         <div className={classes.divAvatar}>
-            <img className={classes.sizeImg} src={`${ImgURL}/Images/avatar.jpg`} alt=""/>
+            <img className={classes.sizeImg} src={`${process.env.PUBLIC_URL}${ImgURL}/Images/avatar.jpg`} alt=""/>
         </div>
     );
 }
