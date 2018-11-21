@@ -4,5 +4,9 @@ import App from './App.jsx';
 import "./Assets/css/font.css";
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const NODE_DOM = document.getElementById('root')
+ReactDOM.render(
+    <App />, 
+    NODE_DOM
+);
 registerServiceWorker();

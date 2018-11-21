@@ -65,12 +65,34 @@ class ProjectDetail extends React.Component {
 								Review
 							</Button>
 						}
+						{
+							detail.Github !== null &&
+							<Button
+								style={{ width: "100%", marginTop: 20 }}
+								size="large"
+								color="primary"
+								href={`${detail.Github}`}
+								target="framename"
+							>
+								Github
+							</Button>
+						}
 					</div>
+					{
+						!detail.State &&
+						<React.Fragment>
+							<Typography variant="headline" style={{ paddingLeft: 5 }}>
+								Processing...
+							</Typography>
+							<Divider light style={{ margin: "1rem 0" }} />
+						</React.Fragment>
+
+					}
 					<List
 						dense={false}
 						subheader={
 							<Typography variant="headline" style={{ paddingLeft: 5 }}>
-								Công Nghệ Và Kiến Thức Áp Dụng Vào Project :
+								I Used...
 							</Typography>}
 					>
 						{this.showDetail(detail.Technologies)}
@@ -84,23 +106,14 @@ class ProjectDetail extends React.Component {
 								dense={false}
 								subheader={
 									<Typography variant="headline" style={{ paddingLeft: 5 }}>
-										Hoàn Thành Dự Án Tôi Đã Học Được:
+										I Learned The Way To ...
 									</Typography>}
 							>
 								{this.showDetail(detail.Knowledges)}
 							</List>
 						</React.Fragment>
 					}
-					{
-						detail.Knowledges === null &&
-						<React.Fragment>
-							<Typography variant="headline" style={{ paddingLeft: 5 }}>
-								Đang Hoàn Thành...
-							</Typography>
-							<Divider light style={{ margin: "1rem 0" }} />
-						</React.Fragment>
-
-					}
+					
 					{
 						flagReview === true &&
 						<ModalReview
@@ -119,7 +132,7 @@ class ProjectDetail extends React.Component {
 		})
 	}
 	showImageReview = (images) => {
-		let res = <div>Đang Cập Nhật</div>;
+		let res = <div>Updating...</div>;
 		if (images.length > 0) {
 			res = images.map((img, index) => {
 				return (
@@ -135,7 +148,7 @@ class ProjectDetail extends React.Component {
 		return res;
 	}
 	showDetail = (techs) => {
-		let res = <div>Đang Cập Nhật</div>;
+		let res = <div>Updating...</div>;
 		if (techs.length > 0) {
 			res = techs.map((tech, index) => {
 				return (

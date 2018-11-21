@@ -11,28 +11,28 @@ import Done from "@material-ui/icons/Done";
 import IntroduceStyle from "./../../../Assets/Jss/Components/IntroduceStyle";
 
 const ListMucTieu_learn = [
-    "Nâng Cao Khả năng tổ chức code css với SMACSS, OOCSS, BEM",
-    "hiểu rõ nhất các xử lí bất đồng bộ trong javascript",
-    "Tiếp cận Reactjs + Redux",
-    "Tìm hiểu sâu về webpack",
-    "Học Tiếng Anh"
+    "Seeking a fulltime position in the IT industry",
+    "Working as professional Front End developer",
+    "Becoming a fullstack developer",
+    "Try to learning as much as possible and doing my best to accomplish my mission, coding and keeping up to date with technology",
+    "Continue to study Javascript language and master on it."
 ];
 const info = [
     {
-        type : "Ngày Sinh",
-        value : "13-04-1997 (21 tuổi)"
+        type : "Birthday",
+        value : "April 13 1997"
     },
     {
-        type : "Quê Quán",
-        value : "Thành Phố Phan Thiết"
+        type : "Place of birth",
+        value : "Phan Thiết City"
     },
     {   
         type : "Email",
         value : "hiepminh130497@gmail.com",
     },
     {
-        type : "Số Điện Thoại",
-        value : "01635948121"
+        type : "Phone Number",
+        value : "0335948121"
     }
 ]
 
@@ -41,7 +41,7 @@ const Introduce = (props) => {
     return (
         <React.Fragment>
             <Typography variant="display2" className={classes.Name}>
-                Nguyễn Minh Hiệp
+                Nguyen Minh Hiep
             </Typography>
             <Typography variant="body2" className={classes.Career}>
                 Web Designer
@@ -51,7 +51,7 @@ const Introduce = (props) => {
                 dense={false}
                 subheader={
                     <Typography variant="body2" className={classes.Career} style={{ textAlign : "left", marginBottom : 11, marginLeft : 11 }}>
-                        Mục Tiêu Học Tập Tương Lai : 
+                        Career Objective : 
                     </Typography>}
             >
                 

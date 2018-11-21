@@ -2,12 +2,12 @@
     {
         "icon" : "devicon-html5-plain-wordmark colored",
         "name" : "HTML5",
-        "percent" : "90%"
+        "percent" : "85%"
     },
     {
         "icon" : "devicon-css3-plain-wordmark colored",
         "name" : "CSS3",
-        "percent" : "90%"
+        "percent" : "85%"
     },
     {
         "icon" : "devicon-bootstrap-plain-wordmark colored",
@@ -27,7 +27,7 @@
     {
         "icon" : "devicon-jquery-plain-wordmark colored",
         "name" : "Jquery",
-        "percent" : "80%"
+        "percent" : "75%"
     },
     {
         "icon" : "devicon-git-plain colored",

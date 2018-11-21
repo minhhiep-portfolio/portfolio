@@ -19,7 +19,8 @@ export default {
         zIndex : 1
     },
     background : {
-        background : `url(${process.env.PUBLIC_URL}/Images/bg-home.jpeg) fixed`
+        background : `url(${process.env.PUBLIC_URL}/Images/bg-home.jpeg) fixed no-repeat center center`,
+        backgroundSize: "cover",
     },
     size : {
         ...helpers.size("100%", "100vh")

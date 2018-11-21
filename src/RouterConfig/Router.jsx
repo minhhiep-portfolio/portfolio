@@ -1,6 +1,6 @@
 import IntroducePage from "./../View/Introduce/IntroducePage";
 import ProjectPage from "./../View/Project/ProjectPage";
-import ContactPage from "./../View/Contact/ContactPage";
+// import ContactPage from "./../View/Contact/ContactPage";
 import NotFoundPage from "./../View/NotFound/NotFoundPage";
 import SkillPage from "../View/Skill/SkillPage";
 import ProjectDetailPage from "./../View/Project/ProjectDetailPage";
@@ -15,11 +15,11 @@ const RouterConfig = [
         component : ProjectPage,
         exact : false
     },
-    {
-        path : "/contact",
-        component : ContactPage,
-        exact : false
-    },
+    // {
+    //     path : "/contact",
+    //     component : ContactPage,
+    //     exact : false
+    // },
     {
         path : "/skill",
         component : SkillPage,

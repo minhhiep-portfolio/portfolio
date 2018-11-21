@@ -1,7 +1,7 @@
 [
     {
         "Id" : 1,
-        "Name" : "Quản Lí Trung Tâm Học Online",
+        "Name" : "Students Management",
         "Image" : "project1.png",
         "ImageReview" : [
             "project1-1.png",
@@ -13,24 +13,27 @@
         "Technologies" : [
             "HTML5, CSS3",
             "Highchart Plugin",
-            "Bootstrap Framework",
-            "SASS Preprocessor",
-            "Javascript OOP",
+            "Bootstrap 4",
+            "SASS",
+            "Javascript/ES6",
             "Jquery",
-            "AJAX, JSON"
+            "AJAX, JSON",
+            "..."
         ],
-        "State" : true,
-        "Review" : "https://www.youtube.com/embed/khGPFiOlTT0",
+        "State" : false,
+        "Review" : null,
         "Knowledges" : [
-            "Dàn layout chuẩn Responsive với HTML5, CSS3, kết hợp Bootstrap 4 và cách sử dụng cơ bản một ngôn ngữ tiền xử lý CSS Là Sass",
-            "Cách lấy dữ Liệu từ backend thông qua Ajax jquery, thao tác dữ liệu json để thể hiện ra ngoài giao diện",
-            "Biết cách quản lí một dự án, dễ bảo trì, sửa chửa, nâng cấp",
-            "Cách làm việc nhóm cùng với các thao tác cơ bản với Git"
-        ]
+            "Build a responsive layout using HTML5, CSS3, Bootstrap, Sass",
+            "Retrieve data from database using AJAX, manipulate with JSON data, and show them on interface",
+            "Manage a project: easy to maintain, update,...",
+            "Use Git",
+            "..."
+        ],
+        "Github": "https://github.com/nhuuhuy1992/projectQuanLyTrungTam.git"
     } ,
     {
         "Id" : 2,
-        "Name" : "Website Đặt Vé Xem Phim Online",
+        "Name" : "Booking Movie Tickets",
         "Image" : "pro-2-2.png",
         "ImageReview" : [
             "pro-2-1.png",
@@ -42,38 +45,23 @@
         ],
         "Technologies" : [
             "HTML5, CSS3",
-            "Bootstrap Framework",
-            "SASS Preprocessor",
-            "Javascript OOP",
-            "Angular 5"
+            "Bootstrap 4",
+            "SASS",
+            "Javascript/ES6",
+            "Angular 5",
+            "..."
         ],
         "State" : false,
         "Review" : null,
-        "Knowledges" : null
-    },
-    {
-        "Id" : 3,
-        "Name" : "Template Porfolio",
-        "Image" : "pro-3-2.png",
-        "ImageReview" : [
-            "pro-3-1.png",
-            "pro-3-2.png",
-            "pro-3-3.png",
-            "pro-3-4.png"
-        ],
-        "Technologies" : [
-            "HTML5, CSS3",
-            "JSS",
-            "React (no Redux)",
-            "Material-ui Framework"
-        ],
-        "State" : true,
-        "Review" : null,
         "Knowledges" : [
-            "Dàn layout chuẩn Responsive với HTML5, CSS3 Kết Hợp Material-ui",
-            "Làm Quen Với Cách Tổ Chức Project React Cơ Bản",
-            "Hiểu Được Cơ Bản Luồng Dữ Liệu Với Props Và State Trong React",
-            "Xây Dựng SPA Cơ Bản Sử Dùng React-Router-Dom"
-        ]
+            "Build a responsive layout using HTML5, CSS3, Bootstrap, Sass",
+            "Build a single page application using Angular 2",
+            "Use main concepts in Angular 2",
+            "Retrieve data from database using HTTP in Angular, manipulate data using Rxjs, and show them on interface",
+            "Manage a project: easy to maintain, update,...",
+            "Use Git",
+            "..."
+        ],
+        "Github": "https://github.com/HiepMin/webPhim.git"
     }
 ]

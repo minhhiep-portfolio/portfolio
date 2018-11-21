@@ -31,8 +31,11 @@ class Header extends React.Component {
     }
     scrollPage = () => {
         let { lastScrollY } = this.state;
-        this.setState({ lastScrollY: window.scrollY })
-        this.setState({ ticky: (lastScrollY < this.state.Y ) ? false : true })
+        this.setState({ 
+            lastScrollY: window.scrollY, 
+            ticky: (lastScrollY < this.state.Y ) ? false : true
+        })
+        // this.setState({ ticky: (lastScrollY < this.state.Y ) ? false : true })
     }
     addClassAppBar = (classes, ArrayClass=[],classtoAdd, dk) => {
         if(dk) classtoAdd.map(cl => ArrayClass.push(cl))
@@ -54,7 +57,7 @@ class Header extends React.Component {
                     className={classes.flex}
                 >
                     <Typography variant="title" color="inherit">
-                        Porfolio
+                        CV
                     </Typography>
 
                     <Hidden only={["xs", "sm"]}>

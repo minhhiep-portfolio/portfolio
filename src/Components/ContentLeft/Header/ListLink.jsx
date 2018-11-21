@@ -9,27 +9,24 @@ const ListLinkItems = [
         to: "/",
         exact: true,
         text: "About Me",
-        scrollTo : "#introduce",
     },
     {
         to: "/project",
         exact: false,
-        text: "My Project",
-        scrollTo : "#project",
+        text: "Project",
 
     },
     {
         to: "/skill",
         exact: false,
         text: "Skills",
-        scrollTo : "#skill",
     },
-    {
-        to: "/contact",
-        exact: false,
-        text: "Contact",
-        scrollTo : "#contact",
-    },
+    // {
+    //     to: "/contact",
+    //     exact: false,
+    //     text: "Contact",
+    //     scrollTo : "#contact",
+    // },
 ];
 
 class ListLink extends React.Component {
